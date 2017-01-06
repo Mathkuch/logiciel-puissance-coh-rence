@@ -1,0 +1,26 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:xctk="clr-namespace:Xceed.Wpf.Toolkit;assembly=WPFToolkit.Extended" x:Name="windows1" x:Class="MainWindow"
+    Title="MainWindow" Height="1024" Width="1280" ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen">
+    <Canvas x:Name="Canvas1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,-8,5">
+        <Button x:Name="Bouton1" Content="Lancer l'animation" Height="32" Canvas.Left="25" Canvas.Top="27" Width="112"/>
+        <TextBox x:Name="Textbox1" Height="23" TextWrapping="Wrap" Text="TextBox" Width="480" Canvas.Left="25" Canvas.Top="4"/>
+        <ScrollBar x:Name="Scroll1" Height="8" VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Horizontal" Width="1270" SmallChange="1" Margin="0"/>
+        <Canvas x:Name="Panneau" Height="188" Canvas.Left="25" Canvas.Top="764" Width="814">
+            <Rectangle Fill="White" Height="188" Stroke="Black" Width="814">
+                <Rectangle.BindingGroup>
+                    <BindingGroup/>
+                </Rectangle.BindingGroup>
+            </Rectangle>
+            <TextBox x:Name="Textbox2" Height="22" TextWrapping="Wrap" Text="1" Width="32" Canvas.Top="16" Canvas.Left="74"/>
+            <ComboBox x:Name="Cbbx1" Width="546" Canvas.Top="52" Canvas.Left="70"/>
+            <Label Content="t:" Height="24" Width="18" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False" Canvas.Top="14" Canvas.Left="48"/>
+            <Label Content="en secondes" Height="24" Width="114" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False" Canvas.Top="14" Canvas.Left="106"/>
+            <Label Content="Période :" Height="24" Width="66" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False" Canvas.Top="50" Canvas.Left="14"/>
+            <Label Content="Seuil minimal de cohérence:" Height="24" Canvas.Left="14" Canvas.Top="92" Width="168" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False"/>
+            <xctk:MaskedTextBox x:Name="MTXTBox2" Canvas.Left="176" TextWrapping="Wrap" Text="0,20" Canvas.Top="94" Width="34" Mask="0.00" AutoSelectBehavior="OnFocus" />
+        </Canvas>
+    </Canvas>
+
+</Window>

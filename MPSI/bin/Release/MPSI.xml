@@ -1,0 +1,632 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MPSI
+</name>
+</assembly>
+<members>
+<member name="T:MPSI.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="F:MPSI.MainWindow.PictureEEG">
+images des EEG
+</member>
+<member name="F:MPSI.MainWindow.canvasligneEEG">
+list des canvas pour EEG 
+</member>
+<member name="F:MPSI.MainWindow.YEEG">
+position barre sur EEG
+</member>
+<member name="F:MPSI.MainWindow.Picture">
+image du scalp
+</member>
+<member name="F:MPSI.MainWindow.Picture1">
+image du scalp
+</member>
+<member name="F:MPSI.MainWindow.Picture2">
+image du scalp
+</member>
+<member name="F:MPSI.MainWindow.Picture3">
+image du scalp
+</member>
+<member name="F:MPSI.MainWindow.Picture4">
+image du scalp
+</member>
+<member name="F:MPSI.MainWindow.Canvaspicture">
+List canvas picture Scalp
+</member>
+<member name="F:MPSI.MainWindow.Canvaspicture1">
+List canvas picture Scalp
+</member>
+<member name="F:MPSI.MainWindow.Canvaspicture2">
+List canvas picture Scalp
+</member>
+<member name="F:MPSI.MainWindow.Canvaspicture3">
+List canvas picture Scalp
+</member>
+<member name="F:MPSI.MainWindow.Canvaspicture4">
+List canvas picture Scalp
+</member>
+<member name="F:MPSI.MainWindow.centerList">
+position des électrodes sur les scalps
+</member>
+<member name="F:MPSI.MainWindow.centerList1">
+position des électrodes sur les scalps
+</member>
+<member name="F:MPSI.MainWindow.centerlist2">
+position des électrodes sur les scalps
+</member>
+<member name="F:MPSI.MainWindow.centerList3">
+position des électrodes sur les scalps
+</member>
+<member name="F:MPSI.MainWindow.centerList4">
+position des électrodes sur les scalps
+</member>
+<member name="F:MPSI.MainWindow.Fp2F8">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.Fp2C4">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.Fp2T6">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.Fp2O2">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.Fp2Cz">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.Fp2Fp1">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.Fp2F7">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.Fp2C3">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.Fp2T5">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.Fp2O1">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.F8C4">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.F8T6">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.F8O2">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.F8Cz">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.F8Fp1">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.F8F7">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.F8C3">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.F8T5">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.F8O1">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.CarrayList">
+valeur
+</member>
+<member name="F:MPSI.MainWindow.CarrayList1">
+valeur
+</member>
+<member name="F:MPSI.MainWindow.CarrayList2">
+valeur
+</member>
+<member name="F:MPSI.MainWindow.CarrayList3">
+valeur
+</member>
+<member name="F:MPSI.MainWindow.CarrayList4">
+valeur
+</member>
+<member name="F:MPSI.MainWindow.CanvasList">
+list des canvas cohérence
+</member>
+<member name="F:MPSI.MainWindow.CanvasList1">
+list des canvas cohérence
+</member>
+<member name="F:MPSI.MainWindow.CanvasList2">
+list des canvas cohérence
+</member>
+<member name="F:MPSI.MainWindow.CanvasList3">
+list des canvas cohérence
+</member>
+<member name="F:MPSI.MainWindow.CanvasList4">
+list des canvas cohérence
+</member>
+<member name="F:MPSI.MainWindow.nO1Array">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.nT5Array">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.nC3Array">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.nF7Array">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.nFp1Array">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.nCzArray">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.nO2array">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.nT6Array">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.nC4Array">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.nF8Array">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.nFp2Array">
+données Excel
+</member>
+<member name="F:MPSI.MainWindow.ellipseList">
+rond puissance
+</member>
+<member name="F:MPSI.MainWindow.ellipseList1">
+rond puissance
+</member>
+<member name="F:MPSI.MainWindow.ellipseList2">
+rond puissance
+</member>
+<member name="F:MPSI.MainWindow.ellipseList3">
+rond puissance
+</member>
+<member name="F:MPSI.MainWindow.ellipseList4">
+rond puissance
+</member>
+<member name="F:MPSI.MainWindow.canvasListP">
+liste des canvas puissance
+</member>
+<member name="F:MPSI.MainWindow.canvasListP1">
+liste des canvas puissance
+</member>
+<member name="F:MPSI.MainWindow.canvasListP2">
+liste des canvas puissance
+</member>
+<member name="F:MPSI.MainWindow.canvasListP3">
+liste des canvas puissance
+</member>
+<member name="F:MPSI.MainWindow.canvasListP4">
+liste des canvas puissance
+</member>
+<member name="M:MPSI.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:MPSI.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:MPSI.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:MPSI.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:MPSI.My.MyWpfExtension">
+ <summary>
+ Module utilisé pour définir les propriétés qui sont disponibles dans l'espace de noms My pour WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:MPSI.My.MyWpfExtension.Application">
+ <summary>
+ Retourne l'objet application pour l'application en cours d'exécution
+ </summary>
+</member>
+<member name="P:MPSI.My.MyWpfExtension.Computer">
+ <summary>
+ Retourne les informations relatives à l'ordinateur hôte.
+ </summary>
+</member>
+<member name="P:MPSI.My.MyWpfExtension.User">
+ <summary>
+ Retourne les informations relatives à l'utilisateur actuel.  Si vous souhaitez exécuter l'application avec les 
+ informations d'identification de l'utilisateur Windows, appelez My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:MPSI.My.MyWpfExtension.Log">
+ <summary>
+ Retourne le journal des applications. L'écouteur peut être configuré par le fichier de configuration de l'application.
+ </summary>
+</member>
+<member name="P:MPSI.My.MyWpfExtension.Windows">
+ <summary>
+ Retourne la collection de fenêtres définie dans le projet.
+ </summary>
+</member>
+<member name="T:MPSI.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._0">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._10">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._11">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._12">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._13">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._14">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._15">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._16">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._17">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._18">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._19">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._20">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._21">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._22">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._23">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._24">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._25">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._26">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._27">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._28">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._29">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._30">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._31">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._32">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._4">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._5">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._6">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._7">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._8">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._9">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._90">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._91">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._910">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._911">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._912">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._913">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._914">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._915">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._916">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._917">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._918">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._919">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._92">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._920">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._921">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._922">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._923">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._924">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._925">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._926">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._927">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._928">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._929">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._93">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._930">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._931">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._932">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._933">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._94">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._95">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._96">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._97">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._98">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources._99">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources.Scalp">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MPSI.My.Resources.Resources.Scalp2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

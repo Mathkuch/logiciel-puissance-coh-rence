@@ -1,0 +1,17 @@
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\bin\Release\MPSI.exe.config
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\obj\Release\MPSI.vbproj.ResolveComReference.cache
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\bin\Release\MPSI.exe
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\bin\Release\MPSI.pdb
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\bin\Release\MPSI.xml
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\bin\Release\WPFToolkit.Extended.dll
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\obj\Release\MainWindow.baml
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\obj\Release\MainWindow.g.vb
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\obj\Release\Application.g.vb
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\obj\Release\MPSI_MarkupCompile.cache
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\obj\Release\MPSI.g.resources
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\obj\Release\MPSI.Resources.resources
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\obj\Release\MPSI.vbproj.GenerateResource.Cache
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\obj\Release\MPSI.exe
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\obj\Release\MPSI.xml
+C:\Users\Kuchenbuch\Documents\Visual Studio 2015\Projects\MPSI\MPSI\obj\Release\MPSI.pdb
